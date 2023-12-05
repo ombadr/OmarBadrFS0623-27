@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body>
+    <!-- ESERCIZIO 1 -->
+
+    <div class="m-5">
+      <div id="saved-name" class="mb-4"></div>
+      <form class="">
+        <div class="mb-3">
+          <label for="name" class="form-label">Nome: </label>
+          <input type="text" class="form-control" id="name" />
+        </div>
+
+        <button type="submit" class="btn btn-primary m-2" id="save-btn">
+          Aggiungi Nome al localStorage
+        </button>
+        <button type="submit" class="btn btn-danger m-2" id="remove-btn">
+          Rimuovi nome dal localStorage
+        </button>
+      </form>
+    </div>
+    <!-- ESERCIZIO 2 -->
+
+    <div class="m-5">
+      <h1>Contatore</h1>
+      <p>Tempo trascorso: <span id="timer">0</span></p>
+    </div>
+  </body>
+</html>
